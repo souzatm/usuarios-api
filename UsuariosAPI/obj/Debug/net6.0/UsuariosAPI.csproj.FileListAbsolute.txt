@@ -46,3 +46,8 @@ C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.E
 C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\MySqlConnector.dll
 C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tsouz\source\repos\UsuariosAPI\UsuariosAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
