@@ -4,3 +4,4 @@ Microsoft.EntityFrameworkCore.Tools 6.0.14
 Microsoft.Extensions.Identity.Stores 6.0.14
 Pomelo.EntityFrameworkCore.MySql 6.0.2
 System.IdentityModel.Tokens.Jwt 6.27.0
+Microsoft.AspNetCore.Authentication.JwtBearer 6.0.14

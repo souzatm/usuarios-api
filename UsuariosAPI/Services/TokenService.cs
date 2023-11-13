@@ -14,14 +14,17 @@ namespace UsuariosAPI.Services
             {
                 new Claim("username", usuario.UserName),
                 new Claim("id", usuario.Id),
-                new Claim(ClaimTypes.DateOfBirth, usuario.DataNascimento.ToString())
+                new Claim(ClaimTypes.DateOfBirth, usuario.DataNascimento.ToString()),
+                new Claim("loginTimestamp", DateTime.UtcNow.ToString())
             };
 
-            var chave = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("JY7S7FSHJRTRD23A112d1as1f811d89as18"));
+            var chave = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("9ASHDA98H9ah9ha9H9A89n0f"));
 
-            var signingCredentials = new SigningCredentials(chave, SecurityAlgorithms.HmacSha256);
+            var signingCredentials =
+                new SigningCredentials(chave, SecurityAlgorithms.HmacSha256);
 
-            var token = new JwtSecurityToken(
+            var token = new JwtSecurityToken
+                (
                 expires: DateTime.Now.AddMinutes(10),
                 claims: claims,
                 signingCredentials: signingCredentials
